@@ -6,7 +6,7 @@ body
     margin: 0;
     padding: 0;
     background: #eee;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 header
@@ -26,55 +26,43 @@ header
     font-size: 5em;
     font-weight: bold;
     position: absolute;
-    top: 20px;
-    left: 650px;
+    top: 70px;
+    left: 700px;
     font-family: monospace;
 }
 
 .title
 {
     font-size: 3em;
+    text-align: center;
     font-weight: bold;
     font-family: monospace;
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 550px;
 }
 
 .underTitle
 {
     position: absolute;
-    top: 300px;
-    left: 550px;
+    top: 350px;
+    left: 680px;
     font-size: 1.5em;
 }
 
-.free
-{
-    top: 510px;
-    left: 1020px;
-}
-
-.can
-{
-    top: 510px;
-    left: 530px;
-}
-
-.can,
-.free,
-input[name='try']
+.top
 {
     position: absolute;
     font-size: 2em;
 }
 
-input[name='try']
+input[name='try1'].top,
+input[name='try2'].top,
+input[name='try3'].top
 {
     top: 500px;
-    left: 700px;
-    width: 300px;
-    height: 50px;
+    left: 250px;
+    margin-top: -2
 }
 
 .main1,
@@ -106,7 +94,7 @@ main
 .main2
 {
     padding-top: 100px;
-    height: 300px;
+    height: 230px;
     margin-bottom: -5px;
 }
 
@@ -144,8 +132,8 @@ ul
     background-size: 270px 500px;
     width: 350px;
     height: 500px;
-    margin: -5px 75px;
-    margin-bottom: 80px;
+    margin: 80px;
+    margin-top: -5px;
 }
 
 .main2-5
@@ -209,6 +197,7 @@ div div .zakaz
 {
     padding: 50px;
     margin-left: 200px;
+    padding-bottom: 100px;
 }
 
 .feedback div
@@ -241,24 +230,36 @@ footer
     font-size: 2em;
 }
 
-input[name='try1']
+input[name='try1'],
+input[name='try2'],
+input[name='try3']
 {
     text-align: center;
-    margin-left: 500px;
+    width: 160px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 7%;
     font-size: 2em;
-    padding: 11px 32px;
-    border:solid 1px #004F72;
-    border-radius: 14px;
-    font: 26px Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #ffffff;
-    background-color: #badcf2;
-    background-image: -moz-linear-gradient(top, #badcf2 0%, #3d8cba 100%);
-    background-image: -webkit-linear-gradient(top, #badcf2 0%, #3d8cba 100%);
-    background-image: -o-linear-gradient(top, #badcf2 0%, #3d8cba 100%);
-    background-image: -ms-linear-gradient(top, #badcf2 0% ,#3d8cba 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d8cba', endColorstr='#3d8cba',GradientType=0 );
-    background-image: linear-gradient(top, #badcf2 0% ,#3d8cba 100%);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+input[name='try1']
+{
+    margin-left: 400px;
+    background-image: url('apple.png');
+}
+
+input[name='try2']
+{
+    margin-left: 600px;
+    background-image: url('google.png');
+}
+
+input[name='try3']
+{
+    margin-left: 800px;
+    background-image: url('windows.png');
 }
 
 img
