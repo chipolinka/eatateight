@@ -28,15 +28,13 @@ header
     position: absolute;
     top: 70px;
     left: 700px;
-    font-family: monospace;
 }
 
 .title
 {
-    font-size: 3em;
+    font-size: 2.35em;
     text-align: center;
     font-weight: bold;
-    font-family: monospace;
     position: absolute;
     top: 200px;
     left: 550px;
@@ -47,7 +45,7 @@ header
     position: absolute;
     top: 350px;
     left: 680px;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 
 .top
@@ -56,9 +54,9 @@ header
     font-size: 2em;
 }
 
-input[name='try1'].top,
-input[name='try2'].top,
-input[name='try3'].top
+a.try1.top,
+a.try2.top,
+a.try3.top
 {
     top: 500px;
     left: 250px;
@@ -112,6 +110,21 @@ footer,
 ul
 {
     text-align: left;
+}
+
+.main1 .text1 ul
+{
+    margin-left: 90px;
+}
+
+.main1 .text2 ul
+{
+    margin-left: 15px;
+}
+
+.main1 .text3 ul
+{
+    margin-left: 70px;
 }
 
 .main1 div ul li
@@ -197,7 +210,7 @@ div div .zakaz
 {
     padding: 50px;
     margin-left: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .feedback div
@@ -210,6 +223,7 @@ div div .zakaz
 .feed2
 {
     width: 1100px;
+    margin-bottom: 25px;
 }
 
 .feedback div div.text
@@ -226,13 +240,12 @@ footer
     margin-top: 100px;
     text-align: center;
     padding: 50px;
-    font-family: monospace;
     font-size: 2em;
 }
 
-input[name='try1'],
-input[name='try2'],
-input[name='try3']
+a.try1,
+a.try2,
+a.try3
 {
     text-align: center;
     width: 160px;
@@ -244,22 +257,24 @@ input[name='try3']
     position: absolute;
 }
 
-input[name='try1']
+a.try1
 {
     margin-left: 400px;
     background-image: url('apple.png');
 }
 
-input[name='try2']
+a.try2
 {
     margin-left: 600px;
     background-image: url('google.png');
 }
 
-input[name='try3']
+a.try3
 {
     margin-left: 800px;
     background-image: url('windows.png');
+    background-size: 167px 52px;
+    background-position: -1px -1px;
 }
 
 img
@@ -271,5 +286,10 @@ img
 
 .feed2 img
 {
-    margin-right: 15px;
+    margin-right: 35px;
+}
+
+.feed1 img
+{
+    margin-left: 25px;
 }
