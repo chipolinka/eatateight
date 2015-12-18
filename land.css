@@ -124,7 +124,7 @@ ul
 
 .main1 .text3 ul
 {
-    margin-left: 70px;
+    margin-left: 55px;
 }
 
 .main1 div ul li
@@ -251,7 +251,7 @@ a.try3
     width: 160px;
     height: 50px;
     background-size: cover;
-    border-radius: 7%;
+    border-radius: 7% 7%;
     font-size: 2em;
     background-repeat: no-repeat;
     position: absolute;
